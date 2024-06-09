@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <header style = "border:solid ; text-align:center ; background-color:yellow">
+            <h1><b> New Awesome Product </b></h1>
+        </header>
+    
+        <main style = "border:solid ; text-align:center">
+        <img src="https://blob.sololearn.com/courses/np.png">
+        <!-- product description -->
+        <p> Introducing our <b>latest product</b>, designed to make <br> your life easier and more efficient.</p>
+        <li> Feature 1</li>
+        <li> Feature 2 </li>
+        <li> Feature 3</li>
+    <h2> Order now!</h2>
+        <form>
+            <label for = "Size"> Size: </label>
+            <Select id = "Size">
+                <option> Small </option>
+                <option> Medium </option>
+                <option> Large </option>
+            </Select>
+
+            <label for = "Color"> Color: </label>
+            <select id="Color">
+                <option> Red </option>
+                <option> Blue </option>
+                <option> Green </option>
+            </select>
+            <br> <br>    
+            <!-- require user to state valid email -->
+            <label for = "Email"> State Email: </label>
+            <input type = "text"> 
+            <br> <br>
+            <!-- require User to State their name -->
+            <label for = "Name"> State Name: </label>
+            <input type = "text"> 
+            <br> <br>
+            <!-- Submit Button to submit details -->
+            <button onclick= "alert('Order Confirmed!')" style = "background-color:black ; color:white ; border:none ; border-radius:5px ; text-align:center">
+            Submit
+            </button>
+            
+            <br><br>
+        </form>
+    </main>
+    <footer style = "border:solid ; text-align:center ; background-color:yellow">
+    <p><b> Made by: </b></p> <u> shivamkolpe@gmail.com </u>
+    <p> in Collaboration with Sololearn </p>
+    </footer>
+    </body>    
+</html>
